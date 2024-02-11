@@ -11,27 +11,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="flex center">
-  <main>
-    <section class="container__top">
+  <main class="flex column">
+    <section class="container__top flex column">
       <div class="top__logo-wrapper">
         <img src="./images/logo.svg" alt="Fylo logo" class="logo">
       </div>
-      <div class="top__icons-wrapper">
-        <img src="./images/icon-document.svg" alt="Document icon" class="icon">
-        <img src="./images/icon-folder.svg" alt="Folder icon" class="icon">
-        <img src="./images/icon-upload.svg" alt="Upload icon" class="icon">
+      <div class="top__icons-wrapper flex">
+        <li class="icon-wrapper">
+          <img src="./images/icon-document.svg" alt="Document icon" class="icon">
+        </li>
+        <li class="icon-wrapper">
+          <img src="./images/icon-folder.svg" alt="Folder icon" class="icon">
+        </li>
+        <li class="icon-wrapper">
+          <img src="./images/icon-upload.svg" alt="Upload icon" class="icon">
+        </li>
       </div>
     </section>
     <section class="container__bottom">
-      <p class="bottom__storage-used">You’ve used 815 GB of your storage</p>
+      <p class="bottom__storage-used">You’ve used <span class="data-span">815 GB</span> of your storage</p>
       <div class="bottom__storage-bar">
         <div class="storage-bar__bg"></div>
         <div class="storage-bar__progress"></div>
         <div class="storage-bar__ball"></div>
       </div>
-      <div class="bottom__storage-limits">
+      <div class="bottom__storage-limits flex">
         <p class="storage-number">0 GB</p>
         <p class="storage-number">1000 GB</p>
+      </div>
+      <div class="bottom__data-bubble flex center">
+        <p class="bottom__storage-left flex center">
+          <span class="bubble-span">185</span> 
+          GB LEFT</p>
       </div>
     </section>
   </main>
