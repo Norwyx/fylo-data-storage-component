@@ -11,12 +11,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
+  <main>
+    <section class="container__top">
+      <div class="top__logo-wrapper">
+        <img src="./images/logo.svg" alt="Fylo logo" class="logo">
+      </div>
+      <div class="top__icons-wrapper">
+        <img src="./images/icon-document.svg" alt="Document icon" class="icon">
+        <img src="./images/icon-folder.svg" alt="Folder icon" class="icon">
+        <img src="./images/icon-upload.svg" alt="Upload icon" class="icon">
+      </div>
+    </section>
+    <section class="container__bottom">
+      <p class="bottom__storage-used">You’ve used 815 GB of your storage</p>
+      <div class="bottom__storage-bar">
+        <div class="storage-bar__bg"></div>
+        <div class="storage-bar__progress"></div>
+        <div class="storage-bar__ball"></div>
+      </div>
+      <div class="bottom__storage-limits">
+        <p class="storage-number">0 GB</p>
+        <p class="storage-number">1000 GB</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
