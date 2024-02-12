@@ -1,8 +1,8 @@
-# Social Links Profile
+# Fylo Data Storage Component
 
-A responsive social links profile. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). 
+A responsive data storage component. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). 
 
-- [Page](https://norwyx.github.io/social-links-profile/) - Final result of the project
+- [Page](https://norwyx.github.io/fylo-data-storage-component/) - Final result of the project
 
 ![Social links profile](./images/final-results.png)
 
