@@ -204,3 +204,9 @@ main {
         border-top: 20px solid white;
     }
 }
+
+@media (min-width: 1440px) {
+    body {
+        background-position: 0vw 50vh;  
+    }
+}
