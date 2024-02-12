@@ -153,3 +153,54 @@ main {
     font-weight: 700;
     color: var(--very-dark-blue);
 }
+
+/* 950px and above */
+
+@media (min-width: 950px) {
+    body {
+        background: url(./images/bg-desktop.png), var(--very-dark-blue);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    
+    main {
+        flex-direction: row !important; 
+        align-items: flex-end;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .container__bottom {
+        text-align: left;
+        width: 540px;
+        height: 160px;
+    }
+
+    .bottom__storage-bar::before {
+        width: 21rem;
+    }
+
+    .bottom__storage-bar::after {
+        left: 20.5rem;
+    }
+
+    .bottom__data-bubble {
+        top: 35%;
+        left: 66%;
+        transform: none;
+        border-radius: 10px 10px 0 10px;
+        position: fixed;
+    }
+
+    .bottom__data-bubble::before {
+        position: absolute;
+        content: '';
+        height: 0px;
+        width: 0px;
+        right: 0;
+        bottom: -1rem;
+        border-left: 25px solid transparent;
+        border-top: 20px solid white;
+    }
+}
